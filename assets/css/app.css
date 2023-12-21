@@ -1,0 +1,38 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  .modal {
+      display: none; /* Hidden by default */
+      position: fixed; /* Stay in place */
+      z-index: 1; /* Sit on top */
+      left: 25%;
+      top: 15%;
+      width: 50%; /* Full width */
+      height: 40%; /* Full height */
+      overflow: auto; /* Enable scroll if needed */
+      background-color: rgb(0,0,0); /* Fallback color */
+      background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+      overflow:hidden;
+      overflow-y:hidden;
+    }
+  
+    /* Modal content */
+    .modal-content {
+      background-color: #e9f5d4;
+      margin: 5% auto; /* 15% from the top and centered */
+      padding: 20px;
+      border: 1px solid #080808;
+      width: 80%; /* Could be more or less, depending on screen size */
+    }
